@@ -1,0 +1,36 @@
+section{
+    display: flex;
+    background-image:url(top-banner.png);
+    background-repeat: no-repeat;
+}
+div{
+    width:50%;
+    margin-left:50px;
+    padding: 40px;
+}
+div img{
+    width:70%;
+    padding-left: 50px;
+    padding: right 20px;;
+}
+h1{
+    font-size:50px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+span{
+    color: red;
+}
+.button{
+    text-decoration:none;
+    margin-left:80px;
+    padding: 10px 40px;
+    background-image: linear-gradient(tomato,red);
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size:x-large;
+    color:black;
+    
+}
