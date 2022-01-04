@@ -1,14 +1,14 @@
-section{
+.top{
     display: flex;
     background-image:url(top-banner.png);
     background-repeat: no-repeat;
 }
-div{
+ .ordhek{
     width:50%;
     margin-left:50px;
     padding: 40px;
 }
-div img{
+ .ordhek img{
     width:70%;
     padding-left: 50px;
     padding: right 20px;;
@@ -27,10 +27,69 @@ span{
     text-decoration:none;
     margin-left:80px;
     padding: 10px 40px;
-    background-image: linear-gradient(tomato,red);
+    background: linear-gradient( pink, red);
     font-weight: bolder;
     border-radius: 10px;
     font-size:x-large;
     color:black;
     
+}
+.dure-soro{
+    padding-bottom:50px;
+
+}
+.button1{
+    background: linear-gradient(45deg, pink, red);
+    text-decoration:none;
+    margin-left:80px;
+    padding: 10px 40px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size:x-large;
+    color:black;
+}
+.middle{
+    display: flex;
+    background-image:url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+
+}
+section{
+    display: flex;
+    background-image:url(design.png);
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    color: blue;
+    margin-top:50px;
+}
+.komala{
+    color:orange;
+}
+.half{
+    padding-right: 20px;
+    padding-left:30px;
+    box-shadow: 10px 10px 40px;
+    margin-left:30px;
+    margin-right:90px;
+    border-left: 7px solid;
+    border-image:linear-gradient,(black,gray );
+    border-image-slice: 1;
+}
+.half1{
+    padding: 20px 50px;
+    box-shadow: 10px 10px 40px;
+    margin-left:30px;
+    margin-right:30px;
+    border-left: 7px solid;
+    border-image:linear-gradient(black ,gray);
+    border-image-slice: 1;
+
+}
+
+.new{
+    font-size: 30px;
 }
